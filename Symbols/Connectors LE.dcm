@@ -12,4 +12,9 @@ K connector USB micro
 F ~
 $ENDCMP
 #
+$CMP USB_C_Plug_USB2.0
+D USB C 2.0 female plug.
+F https://gct.co/files/drawings/usb4110.pdf
+$ENDCMP
+#
 #End Doc Library
