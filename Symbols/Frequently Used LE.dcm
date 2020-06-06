@@ -6,6 +6,10 @@ K NPN Transistor
 F https://www.onsemi.com/pub/Collateral/BCW65ALT1-D.PDF
 $ENDCMP
 #
+$CMP Crystal
+D Crystal
+$ENDCMP
+#
 $CMP LED
 D Light emitting diode
 K LED diode
@@ -28,6 +32,10 @@ $ENDCMP
 #
 $CMP SW_SPST
 D Single pole, single throw switch
+$ENDCMP
+#
+$CMP TestPoint
+F None
 $ENDCMP
 #
 #End Doc Library
