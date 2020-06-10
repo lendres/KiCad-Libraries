@@ -1,10 +1,14 @@
-(module Pad_1.25-2.5 (layer F.Cu) (tedit 5EC563BA)
+(module Pad_1.25-2.5 (layer F.Cu) (tedit 5EDEFFE0)
   (descr "SMD Pad 1.25x2.5 mm")
+  (attr smd)
   (fp_text reference REF** (at 0 3.175 180) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)) (justify bottom))
   )
   (fp_text value PAD_1.25x2.5 (at 0 5.08) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)) (justify bottom))
+  )
+  (fp_text user Name (at 0 -2.45) (layer F.SilkS)
+    (effects (font (size 1.25 1.25) (thickness 0.2)))
   )
   (fp_line (start -0.889 -1.524) (end 0.889 -1.524) (layer F.CrtYd) (width 0.05))
   (fp_line (start 0.889 -1.524) (end 0.889 1.524) (layer F.CrtYd) (width 0.05))

@@ -35,6 +35,7 @@ D Single pole, single throw switch
 $ENDCMP
 #
 $CMP TestPoint
+D Test point
 F None
 $ENDCMP
 #
