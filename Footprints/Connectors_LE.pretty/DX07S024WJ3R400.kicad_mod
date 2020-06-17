@@ -1,4 +1,4 @@
-(module DX07S024WJ3R400 (layer F.Cu) (tedit 5EE2ECEA)
+(module DX07S024WJ3R400 (layer F.Cu) (tedit 5EE63268)
   (descr "USB-C Female")
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -8,7 +8,6 @@
   )
   (fp_line (start -3.25 -2.5) (end -3.25 -2.75) (layer F.SilkS) (width 0.12))
   (fp_line (start -2 -2.75) (end -3.25 -2.75) (layer F.SilkS) (width 0.12))
-  (fp_circle (center -2.8 -3) (end -2.75 -3) (layer F.Fab) (width 0.25))
   (fp_line (start -6.25 2.75) (end -6.25 -2.75) (layer F.CrtYd) (width 0.05))
   (fp_line (start 6.25 2.75) (end -6.25 2.75) (layer F.CrtYd) (width 0.05))
   (fp_line (start 6.25 -2.75) (end 6.25 2.75) (layer F.CrtYd) (width 0.05))
