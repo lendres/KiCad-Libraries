@@ -1,8 +1,9 @@
-(module OSHW_5mm_No_Text (layer F.Cu) (tedit 5EA629E4)
-  (fp_text reference G*** (at -0.14 -3.06) (layer F.SilkS) hide
+(module OSHW-Symbol_5mm_Silkscreen (layer F.Cu) (tedit 5F3AD028)
+  (attr virtual)
+  (fp_text reference G*** (at -0.14 -3.06) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value OSHW-Logo (at 0.09 3.26) (layer F.SilkS) hide
+  (fp_text value OSHW-Logo (at 0.09 3.26) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_poly (pts (xy 0.08823 -2.252104) (xy 0.156891 -2.251966) (xy 0.211812 -2.251642) (xy 0.25459 -2.251055)

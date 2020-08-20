@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +3V
+D Power symbol creates a global label with name "+3V0"
+K power-flag
+$ENDCMP
+#
+$CMP AGND
+D Analog power symbol creates a global label with name "GNDA"
+K power-flag
+$ENDCMP
+#
 $CMP BCW65ALT1G
 D 0.8A Ic, 45V Vce, NPN Transistor, SOT-23
 K NPN Transistor
@@ -8,6 +18,16 @@ $ENDCMP
 #
 $CMP Crystal
 D Crystal
+$ENDCMP
+#
+$CMP D
+D Diode
+K diode
+F ~
+$ENDCMP
+#
+$CMP DGND
+D Digital ground
 $ENDCMP
 #
 $CMP LED
@@ -34,7 +54,17 @@ $CMP SW_SPST
 D Single pole, single throw switch
 $ENDCMP
 #
-$CMP TestPoint
+$CMP TestPoint_1
+D Test point
+F None
+$ENDCMP
+#
+$CMP TestPoint_2
+D Test point
+F None
+$ENDCMP
+#
+$CMP TestPoint_3
 D Test point
 F None
 $ENDCMP
