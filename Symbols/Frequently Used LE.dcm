@@ -6,8 +6,12 @@ K power-flag
 $ENDCMP
 #
 $CMP AGND
-D Analog power symbol creates a global label with name "GNDA"
+D Analog ground symbol, creates a global label with name "AGND"
 K power-flag
+$ENDCMP
+#
+$CMP AVDD
+D Audio high voltage
 $ENDCMP
 #
 $CMP BCW65ALT1G
