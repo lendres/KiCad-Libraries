@@ -1,5 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP SW_Push_DPDT_2-5_3-4_1-4
+D Momentary Switch, dual pole double throw
+K switch dual-pole double-throw spdt ON-ON
+F ~
+$ENDCMP
+#
+$CMP SW_Push_Dual_1-2_3-4
+D Push button switch, generic, symbol, four pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
+$CMP SW_Push_Dual_1-3_2-4
+D Push button switch, generic, symbol, four pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
 $CMP SW_Push_SPDT_1_3_2
 D Momentary Switch, single pole double throw
 K switch single-pole double-throw spdt ON-ON
