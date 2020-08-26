@@ -6,12 +6,6 @@ K connector
 F ~
 $ENDCMP
 #
-$CMP TestPoint
-D Test point
-K test point tp
-F None
-$ENDCMP
-#
 $CMP USB_B_Micro
 D USB Micro Type B connector
 K connector USB micro
