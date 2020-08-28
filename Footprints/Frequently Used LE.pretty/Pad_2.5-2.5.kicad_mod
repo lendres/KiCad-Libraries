@@ -1,4 +1,4 @@
-(module Pad_2.5-2.5 (layer F.Cu) (tedit 5F1B9B9B)
+(module Pad_2.5-2.5 (layer F.Cu) (tedit 5F494DE0)
   (descr "SMD Pad 1.25x2.5 mm")
   (attr smd)
   (fp_text reference REF** (at 0 3.175 180) (layer F.Fab) hide
