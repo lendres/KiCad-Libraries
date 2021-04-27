@@ -41,7 +41,9 @@ F ~
 $ENDCMP
 #
 $CMP Logo
-D Place holder to connect a logo footprint to
+D Place holder to connect a logo footprint
+K Logo
+F None
 $ENDCMP
 #
 $CMP PWR_FLAG

@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CL-SB-22A
+D Switch, dual pole double throw
+K switch dual-pole double-throw DPDT ON-ON
+F https://www.nidec-copal-electronics.com/e/catalog/switch/cl-sb.pdf
+$ENDCMP
+#
 $CMP SW_Push_DPDT_2-5_3-4_1-4
 D Momentary Switch, dual pole double throw
 K switch dual-pole double-throw spdt ON-ON

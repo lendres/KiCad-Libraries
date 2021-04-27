@@ -1,4 +1,4 @@
-(module L_MGV1004 (layer F.Cu) (tedit 5EE559C8)
+(module L_MGV1004 (layer F.Cu) (tedit 608752B5)
   (descr "Laird-Signal Integrity Products MGV1004 series inductors")
   (tags inductor)
   (attr smd)
@@ -14,10 +14,10 @@
   (fp_line (start 5.5 5) (end -5.5 5) (layer F.Fab) (width 0.1))
   (fp_line (start -5.588 -5.08) (end 5.588 -5.08) (layer F.SilkS) (width 0.12))
   (fp_line (start -5.588 5.08) (end 5.588 5.08) (layer F.SilkS) (width 0.12))
-  (fp_line (start -7.5 6) (end -7.5 -6) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -7.5 -6) (end 7.5 -6) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 7.5 -6) (end 7.5 6) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 7.5 6) (end -7.5 6) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -6.6 5.2) (end -6.6 -5.2) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -6.6 -5.2) (end 6.6 -5.2) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 6.6 -5.2) (end 6.6 5.2) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 6.6 5.2) (end -6.6 5.2) (layer F.CrtYd) (width 0.05))
   (fp_text user %R (at 0 0) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -30,6 +30,11 @@
   (pad 2 smd roundrect (at 4.75 0) (size 3.5 4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.078)
     (thermal_width 1.5))
   (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_2816_7142Metric.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${LE3DMOD}/MGV10046R8M-10.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
