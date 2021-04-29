@@ -1,12 +1,13 @@
-(module Ikosy-Symbol_Type2_4.3x6_SilkScreen (layer F.Cu) (tedit 60840485)
-  (fp_text reference G*** (at 0 -4.4) (layer F.Fab) hide
+(module Ikosy-Symbol_Type2_4.3x6_SilkScreen (layer F.Cu) (tedit 6089469A)
+  (attr virtual)
+  (fp_text reference G*** (at 0 -6.9) (layer F.Fab) hide
     (effects (font (size 1.524 1.524) (thickness 0.3)))
   )
-  (fp_text value LOGO (at 0 4.4) (layer F.Fab) hide
+  (fp_text value LOGO (at 0 8.5) (layer F.Fab) hide
     (effects (font (size 1.524 1.524) (thickness 0.3)))
   )
   (fp_poly (pts (xy -1.839311 2.934137) (xy -2.145862 2.934137) (xy -2.145862 -2.934138) (xy -1.839311 -2.934138)
-    (xy -1.839311 2.934137)) (layer B.Paste) (width 0.01))
+    (xy -1.839311 2.934137)) (layer F.SilkS) (width 0.01))
   (fp_poly (pts (xy -0.70069 2.934137) (xy -1.576552 2.934137) (xy -1.576552 -2.67138) (xy -1.27 -2.67138)
     (xy -1.27 2.671379) (xy -1.007242 2.671379) (xy -1.007242 -2.67138) (xy -1.27 -2.67138)
     (xy -1.576552 -2.67138) (xy -1.576552 -2.934138) (xy -0.70069 -2.934138) (xy -0.70069 2.934137)) (layer F.SilkS) (width 0.01))
@@ -18,4 +19,10 @@
   (fp_poly (pts (xy 2.18966 2.934137) (xy 1.313798 2.934137) (xy 1.313798 -2.67138) (xy 1.62035 -2.67138)
     (xy 1.62035 2.671379) (xy 1.883108 2.671379) (xy 1.883108 -2.67138) (xy 1.62035 -2.67138)
     (xy 1.313798 -2.67138) (xy 1.313798 -2.934138) (xy 2.18966 -2.934138) (xy 2.18966 2.934137)) (layer F.SilkS) (width 0.01))
+  (fp_text user IKOSY (at 0 -3.85) (layer F.SilkS)
+    (effects (font (size 0.9 1.05) (thickness 0.2)))
+  )
+  (fp_text user TECH (at 0.1 3.8) (layer F.SilkS)
+    (effects (font (size 0.7 1.25) (thickness 0.15)))
+  )
 )
