@@ -1,9 +1,9 @@
-(module Ikosy-Logo_Type1_10.3x2mm_SilkScreen (layer F.Cu) (tedit 60894399)
+(module Ikosy-Logo_Type1_10.3x2mm_SilkScreen (layer F.Cu) (tedit 608AC415)
   (attr virtual)
-  (fp_text reference G*** (at 0 -2.1) (layer F.SilkS) hide
+  (fp_text reference G*** (at 0 -2.1) (layer F.Fab) hide
     (effects (font (size 1.524 1.524) (thickness 0.3)))
   )
-  (fp_text value LOGO (at 0 2.3) (layer F.SilkS) hide
+  (fp_text value LOGO (at 0 2.3) (layer F.Fab) hide
     (effects (font (size 1.524 1.524) (thickness 0.3)))
   )
   (fp_poly (pts (xy -5.036457 1.012371) (xy -5.134428 1.012371) (xy -5.134428 -1.012371) (xy -5.036457 -1.012371)
