@@ -3,6 +3,15 @@ EESchema-DOCLIB  Version 2.0
 $CMP +3V
 D Power symbol creates a global label with name "+3V0"
 K power-flag
+F None
+$ENDCMP
+#
+$CMP +3V3
+F None
+$ENDCMP
+#
+$CMP +5V
+F None
 $ENDCMP
 #
 $CMP AGND
@@ -49,7 +58,7 @@ $ENDCMP
 $CMP PWR_FLAG
 D Special symbol for telling ERC where power comes from
 K power-flag
-F ~
+F None
 $ENDCMP
 #
 $CMP R

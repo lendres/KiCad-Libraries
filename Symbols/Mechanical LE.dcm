@@ -6,6 +6,12 @@ K fiducial marker
 F None
 $ENDCMP
 #
+$CMP MountingHole
+D Mounting Hole without connection
+K mounting hole
+F None
+$ENDCMP
+#
 $CMP WireAssembly
 D External wire assembly placeholder
 K logo
