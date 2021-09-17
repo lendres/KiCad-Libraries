@@ -1,4 +1,4 @@
-(module L_MGV1004 (layer F.Cu) (tedit 608752B5)
+(module L_MGV1004 (layer F.Cu) (tedit 614482A3)
   (descr "Laird-Signal Integrity Products MGV1004 series inductors")
   (tags inductor)
   (attr smd)
@@ -29,11 +29,6 @@
     (thermal_width 1.5))
   (pad 2 smd roundrect (at 4.75 0) (size 3.5 4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.078)
     (thermal_width 1.5))
-  (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_2816_7142Metric.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
   (model ${LE3DMOD}/MGV10046R8M-10.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
