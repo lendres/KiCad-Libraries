@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP VS1000
-D Ogg Vorbis Player IC with USB and NAND FLASH Interface
-F http://www.vlsi.fi/fileadmin/datasheets/vs1000.pdf
-$ENDCMP
-#
-#End Doc Library

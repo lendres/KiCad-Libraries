@@ -1,4 +1,4 @@
-(footprint "Ikosy-Logo_Type1_20.5x4mm_Copper" (version 20211014) (generator pcbnew)
+(footprint "Ikosy-Logo_Type1_20.5x4mm_Copper_copy" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 6196B547)
   (attr exclude_from_pos_files exclude_from_bom)

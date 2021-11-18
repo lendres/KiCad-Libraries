@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP MX25L1606EM1I-12G
-D I2C Serial EEPROM
-K I2C Serial EEPROM
-F https://www.macronix.com/Lists/Datasheet/Attachments/7465/MX25L1606E,%203V,%2016Mb,%20v1.9.pdf
-$ENDCMP
-#
-#End Doc Library
