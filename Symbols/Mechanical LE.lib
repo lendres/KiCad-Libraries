@@ -43,6 +43,28 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
+# MountingHole_Pad
+#
+DEF MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "MountingHole_Pad" 0 -525 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Name" 0 125 50 H V C CNN "Name"
+F5 "None" 0 -750 50 H I C CNN "Manufacturer Name"
+F6 "None" 0 -675 50 H I C CNN "Manufacturer Part No."
+F7 "None" 0 -825 50 H I C CNN "Source 1"
+F8 "None" 0 -900 50 H I C CNN "Source 1 Part No."
+F9 "Mounting hole." 0 -600 50 H I C CNN "Description"
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+X 1 1 0 -150 100 U 50 50 1 1 U
+ENDDRAW
+ENDDEF
+#
 # WireAssembly
 #
 DEF WireAssembly WA 0 20 N N 1 F N
