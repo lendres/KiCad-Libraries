@@ -1,6 +1,6 @@
 (footprint "Ikosy-Logo_Type1_20.5x4mm_Copper" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6196B547)
+  (tedit 61981F18)
   (attr exclude_from_pos_files exclude_from_bom)
   (fp_text reference "G***" (at 0 -3.3) (layer "F.Fab") hide
     (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -3340,5 +3340,4 @@
       (xy -0.654177 -2.020243)
       (xy -0.543539 -2.020167)
     ) (layer "F.Mask") (width 0.01) (fill solid) (tstamp ee36ff19-2a99-4b4b-bce2-9d236822e0b2))
-  (pad "1" smd circle (at -3.8 -0.91) (size 0.25 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5268f47a-9506-48fd-9576-e763422d4a0b))
 )
